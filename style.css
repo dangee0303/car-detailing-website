@@ -357,9 +357,9 @@ contact-buttons {
 
 /* Google map container */
 .map {
-  margin: 40px auto;
+  margin: auto;
   max-width: 1000px;
-  width: 90%;
+  width: 100%;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -376,13 +376,18 @@ contact-buttons {
   margin-bottom: 30px;
 }
 
+
 .contact-form {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 500px;       /* keeps it from being too wide */
+  margin: 0 auto;         /* centers horizontally */
+  padding: 0 15px;        /* adds space on very small screens */
   gap: 15px;
 }
+
+
+
 
 .contact-form input,
 .contact-form select,
