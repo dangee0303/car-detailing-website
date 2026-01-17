@@ -251,7 +251,7 @@ main, .page-content {
 }
 
 .who-we-are .box {
-  background: #27396b;
+  background: #d1d1d1;
   border-radius: 8px;
   padding: 1.8rem 1.2rem; 
   box-shadow: 0 8px 18px rgba(0,0,0,0.08);
@@ -261,12 +261,12 @@ main, .page-content {
 
 .who-we-are .box h4 {
   margin-bottom: 0.8rem;
-  color: #fff ;
+  color: black;
   font-size: 1.1rem;
 }
 
 .who-we-are .box p {
-  color: #fff;
+  color: black;
   line-height: 1.4;
   font-size: 0.9rem;
 }
